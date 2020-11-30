@@ -1,0 +1,194 @@
+a{
+  text-decoration: none;
+}
+.rubrik{
+  margin-top: 2%;
+  margin-left: 20%;
+  display: inline-block;
+}
+
+.Knapplådatvå{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 80;
+  right: 300;
+}
+.LogUt{
+  width: 243px;
+  height: 100%;
+  position: absolute;
+  top: 40;
+}
+#LoggaUtKnapp{
+  right: 32;
+  position: absolute;
+  top: -30;
+}
+.Knapplåda{
+  position: absolute;
+  width: 490px;
+  height: 320px;
+  top: 80;
+  right: 0; 
+}
+.Log{
+  width: 243px;
+  height: 100%;
+  position: absolute;
+  top: 40;
+}
+.Log form{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 170px;
+  background-color: #bf0000;
+  border-radius: 5px;
+  padding: 1%;
+  visibility: hidden;
+}
+#LoggaInKnapp{
+  right: 0;
+  position: absolute;
+  top: -30;
+}
+.Reg{
+  width: 243px;
+  height: 100%;
+  position: absolute;
+  top: 40;
+  right: 0;
+}
+.Reg form{
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 170px;
+  background-color: #bf0000;
+  border-radius: 5px;
+  padding: 1%;
+  visibility: hidden;
+}
+#RegistreraKnapp{
+  position: absolute;
+  top: -30;
+  z-index: 100;
+}
+.LogRegKnapp{
+  background-color: #bf0000;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer; 
+  font-size: 15px;
+}
+
+.nav{
+  margin-left: 20%;
+}
+.nav a{
+  background-color: #ffd1eb; 
+  border: 1px solid black;
+}
+.start{
+  margin-left: 20%;
+  background-color: #f2f2f2;
+  width: 60%;
+  padding: 1%;
+}
+.form{
+  visibility: visible;
+}
+#mail{
+  text-decoration: none;
+  color: black;
+}
+
+/* Receptens rutor */
+.RecNamn{
+  height: 50;
+  width: 49.5%;
+  resize: none;
+  outline: none;
+  overflow: auto;
+}
+.RecBeskr{
+  height: 50;
+  width: 49.5%;
+  resize: none;
+  outline: none;
+  overflow: auto;
+}
+.RecIngred{
+  height: 100;
+  width: 49.5%;
+  resize: none;
+  outline: none;
+  overflow: auto;
+}
+.RecInstruk{
+  height: 100;
+  width: 49.5%;
+  resize: none;
+  outline: none;
+  overflow: auto;
+}
+.RecSkapare{
+  height: 30;
+  width: 49.5%;
+  resize: none;
+  outline: none;
+  overflow: auto;
+}
+.VisaKnapp{
+  background-color: #5dce00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer; 
+  font-size: 15px;
+  margin-left: 1%;
+}
+
+/* FONT */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+.topnav {
+  overflow: hidden;
+  background-color: #ED1B34;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.active {
+  background-color: #C80F25;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
