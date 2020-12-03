@@ -121,7 +121,7 @@
 
 
             echo '<div class="container">
-            <form action="test.php" method="post"> 
+            <form action="index.php" method="post"> 
             <label id="first"> First name:</label><br/>
             <input type="text" name="first_name" required><br/>
             
