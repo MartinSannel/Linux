@@ -11,4 +11,4 @@ sudo apt-get install mysql-server
 sudo apt-get install monit
 
 ## Firewall stuff
-sudo ufw allow 2812
+sudo ufw allow 2812 # monit
