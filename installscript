@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in sql-server net-tools openssh-server apache2; 
+do
+sudo apt-get --irnogre-missing install $1
+done
