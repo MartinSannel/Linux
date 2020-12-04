@@ -113,7 +113,7 @@
 
             if(isset($_POST['save']))
             {
-                $sql = "INSERT INTO customers (first_name, last_name, email)
+                $sql = "INSERT INTO $table (first_name, last_name, email)
                 VALUES ('".$_POST["first_name"]."','".$_POST["last_name"]."','".$_POST["email"]."')";
                 $result = mysqli_query($mysqli, $sql);
                 echo "<meta http-equiv='refresh' content='0'>";
