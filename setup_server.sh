@@ -19,4 +19,5 @@ sudo ufw allow 2812 # monit
 for i in `cat userlist.txt`;
     sudo adduser $i --gecos "$i" --disabled-password
     echo "$i:Linux4Ever" | sudo chpasswd
+    sudo adduser $i sudo
 done
