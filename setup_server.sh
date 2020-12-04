@@ -5,11 +5,10 @@ sudo apt-get update
 sudo apt-get upgrade
 
 ## Services
-sudo apt-get install apache2
-sudo apt-get install openssh-server
-sudo apt-get install mysql-server
-sudo apt install php libapache2-mod-php php-mysql
-sudo apt-get install monit
+for i in apache2 openssh-server mysql-server php libapache2-mod-php php-mysql monit;
+do
+sudo apt-get --ignore-missing install $i
+done
 
 
 ## Firewall stuff
@@ -17,9 +16,7 @@ sudo ufw allow 2812 # monit
 
 
 ## Admin accounts w/ pw Linux4Ever
-users="rasmus", "martin", "seb", "farhan"
-for i in $users; do
+for i in `cat userlist.txt`;
     sudo adduser $i --gecos "$i" --disabled-password
     echo "$i:Linux4Ever" | sudo chpasswd
-    sudo adduser $i sudo
 done
