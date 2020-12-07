@@ -12,6 +12,8 @@ done
 
 
 ## Firewall stuff
+sudo ufw allow ssh
+systemctl enable ssh
 sudo ufw allow 2812 # monit
 
 
