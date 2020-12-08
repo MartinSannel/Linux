@@ -7,7 +7,7 @@ sudo apt-get upgrade
 ## Services
 for i in apache2 openssh-server mysql-server php libapache2-mod-php php-mysql monit;
 do
-sudo apt-get --ignore-missing install $i
+sudo apt-get -y --ignore-missing install $i
 done
 
 
@@ -19,6 +19,7 @@ sudo ufw allow 2812 # monit
 
 ## Admin accounts w/ pw Linux4Ever
 for i in `cat userlist.txt`;
+    do
     sudo adduser $i --gecos "$i" --disabled-password
     echo "$i:Linux4Ever" | sudo chpasswd
     sudo adduser $i sudo
